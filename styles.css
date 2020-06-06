@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    margin: auto;
+}
+.clock{
+width:30rem;
+height:30rem;
+border-radius:50%;
+  border :3px solid darkslategray;
+margin :30px auto;
+background: url(clock.svg) no-repeat ;
+background-size:  cover;
+}
+
+.hand{
+
+
+position: absolute;
+margin-left: 15rem;
+
+
+
+
+}
+.hour-hand{
+background-color: darkblue;
+transform-origin: bottom;
+width:5px;
+height:10rem;
+margin-top: 5rem;
+}
+
+
+.minute-hand{
+background-color: red;
+transform-origin: bottom;
+width: 4px;
+height : 12rem;
+margin-top :3rem;
+}
+
+.second-hand{
+background-color: rgb(108, 108, 124);
+transform-origin: bottom;
+width : 3px;
+height:14rem;
+margin-top: 1rem;
+} 
